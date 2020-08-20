@@ -7,11 +7,17 @@
     "build:css": "postcss src/tailwind.css -o dist/tailwind.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/joxx/tailwind-base.git"
   },
-  "keywords": ["tailwindcss", "postcss", "autoprefixer", "purgecss", "cssnano" ],
+  "keywords": [
+    "tailwindcss",
+    "postcss",
+    "autoprefixer",
+    "purgecss",
+    "cssnano"
+  ],
   "author": "joachim kliemann",
   "license": "ISC",
   "dependencies": {
